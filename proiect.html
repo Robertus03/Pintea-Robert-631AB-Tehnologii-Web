@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Service Auto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('imagine.webp'); /* Imaginea de fundal */
+    background-size: cover; /* Asigură că imaginea se potrivește pe tot ecranul */
+    background-position: center; /* Centrează imaginea pe ecran */
+    background-attachment: fixed; /* Imaginea va rămâne fixă atunci când derulezi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundal semi-transparent pentru formular */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+</style>
+<body>
+
+    <div class="login-container">
+        <h2>Autentificare Service Auto</h2>
+        
+        <form action="login.php" method="POST">
+            <label for="username">Nume Utilizator:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Parola:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Autentificare</button>
+        </form>
+    </div>
+	
+	
+
+</body>
+</html>
