@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #f4f6f8;
+            color: #222;
+        }
+        h1, h2 {
+            color: #004d99;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        header img {
+            width: 120px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid #004d99;
+        }
+        .personal-info {
+            line-height: 1.5;
+        }
+        section {
+            background-color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 6px rgba(0,0,0,0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .job, .education {
+            margin-bottom: 15px;
+        }
+        .job-title, .education-title {
+            font-weight: bold;
+            color: #004d99;
+        }
+        .period {
+            font-style: italic;
+            color: #666;
+        }
+        .responsibilities, .edu-details {
+            margin-left: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table td, table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        table th {
+            background-color: #004d99;
+            color: white;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Fotografie Ion Popescu" />
+        <div class="personal-info">
+            <h1>Pintea Robert</h1>
+            <p>Adresă: Str. Baia de Aries nr. 12, București, România</p>
+            <p>Telefon: +40 712 345 678</p>
+            <p>Email: pintea.robert@gmail.com</p>
+        </div>
+    </header>
+	
+	 <section>
+        <h2>Educație și formare</h2>
+
+        <div class="education">
+            <p class="period">2022 - prezent</p>
+            <p class="education-title">Universitatea Politehnica București</p>
+            <p class="edu-details">Licență în Informatică, Specializarea Informatica Industriala</p>
+        </div>
+
+        <div class="education">
+            <p class="period">2018 - 2022</p>
+            <p class="education-title">Colegiul National Alexandru Lahovari</p>
+            <p class="edu-details">Profil matematică-informatică</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Experiență profesională</h2>
+
+        <div class="job">
+            <p class="period">2022 - prezent</p>
+            <p class="job-title">Software Developer</p>
+            <p>Compania ABC Tech</p>
+            <ul class="responsibilities">
+                <li>Dezvoltarea și mentenanța aplicațiilor web.</li>
+                <li>Colaborarea cu exportatori externi</li>
+                <li>Participarea la întâlniri de planificare și evaluare a proiectelor.</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Competențe personale</h2>
+
+        <h3>Limbi străine cunoscute</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Limba</th>
+                    <th>Nivel</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Engleză</td>
+                    <td>Avansat</td>
+                </tr>
+                <tr>
+                    <td>Franceză</td>
+                    <td>Mediiu</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Competențe digitale</h3>
+        <ul>
+            <li>Microsoft Office (Word, Excel, PowerPoint) – avansat</li>
+            <li>HTML, CSS, JavaScript – mediu</li>
+            <li>SQL și baze de date – mediu</li>
+        </ul>
+
+        <h3>Alte competențe</h3>
+        <ul>
+            <li>Comunicare eficientă</li>
+            <li>Lucru în echipă</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Hobby-uri</h2>
+        <ul>
+            <li>Sporturi - fotbal</li>
+            <li>Gaming</li>
+            <li>Cititul - carti de dezvolatre persoanala si economie</li>
+        </ul>
+    </section>
+</body>
+</html>
