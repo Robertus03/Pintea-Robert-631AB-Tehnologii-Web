@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercițiul 3</title>
+</head>
+<body>
+
+    <script>
+       
+        let num1 = 15;
+        let num2 = 4;
+        let num3 = 12;
+
+        
+        console.log("Numerele inițiale sunt:", num1, num2, num3);
+
+        
+        let numere = [num1, num2, num3];
+
+     
+        numere.sort(function(a, b) {
+            return b - a; 
+        });
+
+        
+        console.log("Numerele în ordine descrescătoare sunt:", numere.join(", "));
+
+     
+    </script>
+
+</body>
+</html>
